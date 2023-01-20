@@ -6,8 +6,17 @@ body{
 	margin: auto ;
 	text-align: justify;
 }
+.astros>dl{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: large;
+	display: flex;
+	justify-content: center;
+}
 a{
 	color: f0cc1a;
+}
+p{
+	font-family: 'Courier New', Courier, monospace;
 }
 h2, caption, th{
 	color: f0cc1a;
