@@ -38,6 +38,13 @@ audio{
 	width: 48%;
 	height:  auto;
 }
+.contenido.cabecera_seccion
+{
+	width: 100%;
+}
+.cabecera{
+	margin-bottom: 10rem;
+}
 input{
 	font-family: inherit;
 	background-color: transparent;
@@ -63,6 +70,25 @@ textarea{
 }
 caption{
 
+}
+
+.lista_astros{
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+/* .astros:nth-child(2n){
+	grid-column: 2/3;
+}
+.astros:nth-child(2n+1){
+	grid-column: 1/2;
+} */
+
+.foto_cabecera_seccion {
+	display: flex;
+	align-items: center;
+}
+.foto_cabecera_seccion img{
+	width: 100%;
 }
 table{
 	border-collapse: collapse;
