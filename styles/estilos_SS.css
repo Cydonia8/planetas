@@ -1,3 +1,7 @@
+@font-face {
+	font-family: "SofiaSans-Regular.ttf";
+	src: url(fonts/SofiaSans-Regular.ttf);
+}
 body{
 	box-sizing: border-box;
 	color:  white;
@@ -6,8 +10,17 @@ body{
 	margin: auto ;
 	text-align: justify;
 }
+.astros>dl{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: large;
+	display: flex;
+	justify-content: center;
+}
 a{
 	color: f0cc1a;
+}
+p{
+	font-family: 'Courier New', Courier, monospace;
 }
 h2, caption, th{
 	color: f0cc1a;
@@ -60,9 +73,6 @@ label{
 }
 textarea{
 	margin: auto;
-}
-caption{
-
 }
 table{
 	border-collapse: collapse;
