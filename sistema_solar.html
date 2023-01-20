@@ -479,14 +479,18 @@
 					</tfoot>
 				</table>
 			</div>
-			<div>
+			<div id="contactoaliens">
 				<h2 id="contacto">Contacta con los Aliens</h2>
 	    			<form action>
 	    				<div id="inputs">
-	    					<label for="name">Nombre:</label>
+							<div>
+								<label for="name">Nombre:</label>
 							<input type="text" id="name" name="name" minlength="3" maxlength="30" required>
-							<label for="email">Correo electrónico:</label>
-							<input type="email" id="email" name="email" required>
+							</div>
+							<div>
+								<label for="email">Correo electrónico:</label>
+								<input type="email" id="email" name="email" required>
+							</div>
 	    				</div>
 						
 						<br>
@@ -505,19 +509,19 @@
 						</div>
 						
 						<br>
-						<div id="texarea">
-							<label for="asunto">Asunto por el que contactas</label>
+						<div id="textarea">
+							<label for="asunto">Asunto por el que contactas:</label>
 							<br>
-							<textarea name="asunto" id="asunto" cols="30" rows="10"></textarea required>
+							<textarea name="asunto" id="asunto" cols="30" rows="20"></textarea required>
 						</div>
-						
-						<br>
-						<label for="photo">Imagen</label>
-						<input type="file" id="photo" name="photo">
-						<br>
-						<input type="checkbox" id="acepto" name="acepto" required="">
+						<div id="foto">
+							<label for="photo">Imagen:</label>
+							<input type="file" id="photo" name="photo">
+						</div>
+						<div id="acepto">
+							<input type="checkbox" id="acepto" name="acepto" required="">
 						<label for="acepto">Acepto que los alienígenas vengan a por mí</label>
-						<br>
+						</div>
 						<button type="submit">Enviar</button>	
 				    </form>
 			</div>	
