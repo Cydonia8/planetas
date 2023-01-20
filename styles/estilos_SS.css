@@ -1,0 +1,85 @@
+body{
+	box-sizing: border-box;
+	color:  white;
+	background-color: black;
+	max-width: 1200px;
+	margin: auto ;
+	text-align: justify;
+}
+a{
+	color: f0cc1a;
+}
+h2, caption, th{
+	color: f0cc1a;
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+}
+h1{
+	font-family: 'Orbitron', sans-serif;
+	color: f0cc1a;
+	text-align: center;
+}
+img{
+	
+	width: 48%;
+	
+
+}
+video{
+	display: block;
+	margin: auto;
+}
+audio{
+	display: block;
+	margin: auto;
+}
+.contenido{
+	display: inline-block;
+	width: 48%;
+	height:  auto;
+}
+input{
+	font-family: inherit;
+	background-color: transparent;
+	border: 0px black solid;
+	border-bottom: white 1px solid;
+	margin: 5px;
+}
+label{
+	margin-left: 5px;
+}
+#inputs{
+	margin: auto;
+	width: 90%;
+	max-width: 1300px;
+}
+#textarea{
+	width: 60%;
+	max-width: 1300px;
+	margin: auto;
+}
+textarea{
+	margin: auto;
+}
+caption{
+
+}
+table{
+	border-collapse: collapse;
+	background-color: #090863;
+	margin: auto;
+
+}
+td, th{
+	font-family: 'Orbitron', sans-serif;
+	border: 1px solid white;
+	padding: 0.5em 2em;
+	overflow-x: auto ;
+}
+th{
+	text-align: center;
+	font-family: 'Orbitron', sans-serif; 
+	color: f0cc1a;
+	background-color: black;
+
+}
