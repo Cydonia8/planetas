@@ -6,17 +6,8 @@ body{
 	margin: auto ;
 	text-align: justify;
 }
-.astros>dl{
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: large;
-	display: flex;
-	justify-content: center;
-}
 a{
 	color: f0cc1a;
-}
-p{
-	font-family: 'Courier New', Courier, monospace;
 }
 h2, caption, th{
 	color: f0cc1a;
@@ -57,92 +48,22 @@ input{
 label{
 	margin-left: 5px;
 }
-
-#contactoaliens{
-	width: 75%;
-	margin:2rem auto;
-}
-
-#contactoaliens form{
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 #inputs{
-	margin: 0.5rem auto;
+	margin: auto;
 	width: 90%;
 	max-width: 1300px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
 }
-
-#inputs input{
-	margin: 0rem;
-	color: white;
-	outline: none;
-}
-
-
-#selects{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-#selects label{
-	margin-right: 0.5rem;
-}
-
-#selects select{
-	background: transparent;
-	border: 1px solid white;
-	color: white;
-	padding: 0.3rem;
-	border-radius: 10px;
-}
-
-#selects option{
-	background-color: black;
-}
-
 #textarea{
-	margin: 1rem auto;
 	width: 60%;
-	text-align: center;
+	max-width: 1300px;
+	margin: auto;
 }
 textarea{
-	margin:0.4rem auto;
-	width: 100%;
+	margin: auto;
 }
+caption{
 
-#foto,#acepto{
-	display: flex;
-	justify-content: center;
-	margin: 0.5rem 0rem;
-	align-items: center;
 }
-
-#foto input{
-	border-bottom: 0px;
-}
-
-#contactoaliens button{
-	width: 50%;
-	margin: 0.5rem auto;
-	background: transparent;
-	padding: 1rem;
-	color: white;
-	border-radius: 10px;
-	border: 1px solid white;
-}
-
-#contactoaliens button:hover{
-	cursor: pointer;
-}
-
 table{
 	border-collapse: collapse;
 	background-color: #090863;
